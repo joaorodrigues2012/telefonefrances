@@ -1,7 +1,7 @@
 function abrirPorta() {
     var idPorta = document.querySelector('.porta.direito');
     console.log(idPorta);
-    idPorta.style.animation = "porta 30s linear 0s infinite forwards";
+    idPorta.style.animation = "porta 15s linear 0s infinite forwards";
 atualizaContador(5);
 
 }
@@ -13,7 +13,7 @@ function atualizaContador(futuro)
 
     if (ss > 0) {
         ss--;
-        setTimeout(atualizaContador,1000);
+        setTimeout(atualizaContador,500);
     } else {
         location.href="telefone.html";
     }
